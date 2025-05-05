@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://github.com/SR3l/Chat-Bot",
+  "homepage": "https://SR3l.github.io/Chat-Bot",
   "private": true,
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.7",
