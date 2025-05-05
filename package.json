@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
+  "homepage": "https://github.com/SR3l/Chat-Bot",
   "private": true,
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.7",
@@ -30,6 +31,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -53,6 +55,7 @@
   "devDependencies": {
     "@types/date-fns": "^2.5.3",
     "autoprefixer": "^10.4.16",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5"
   }
