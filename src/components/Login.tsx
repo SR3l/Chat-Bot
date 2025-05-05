@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
+import Logo from "../assets/AI-Apex-Logo-Color.png"
 
 const Login = () => {
   const { login } = useAuth();
@@ -25,7 +26,7 @@ const Login = () => {
         {/* Logo */}
         <div className="flex justify-center">
           <div className="w-48">
-            <img src="/aiapex-logo-square.png" alt="Logo" className="w-full" />
+            <img src={Logo} alt="Logo" className="w-full" />
           </div>
         </div>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Navigate,
@@ -17,7 +17,7 @@ import { ChatProvider } from './contexts/ChatContext';
 const PrivateRoute: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
-  const token = localStorage.getItem('token'); // Just for the test puspose 
+  const token = localStorage.getItem('token'); // Just for the test puspose
   return token ? <>{children}</> : <Navigate to="/login" />;
 };
 

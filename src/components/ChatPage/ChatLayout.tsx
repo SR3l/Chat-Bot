@@ -16,6 +16,7 @@ import { useNavigate } from "react-router-dom";
 import { Avatar, AvatarFallback, AvatarImage } from "../avatar";
 import { useChat } from "../../contexts/ChatContext";
 import { useEffect, useState } from "react";
+import Logo from "../../assets/AI-Apex-Logo-Color.png";
 
 export default function ChatLayout() {
   const [isLoading, setIsLoading] = useState(true);
@@ -107,7 +108,7 @@ export default function ChatLayout() {
       <div className="h-full flex flex-col w-full max-w-[300px] border border-r border-gray-300 bg-white">
         <div className="p-3 w-full">
           <img
-            src="/AI-Apex-Logo-Color.png"
+            src={Logo}
             alt="Logo"
             className="rounded-md h-[65px] object-fill w-full"
           />
